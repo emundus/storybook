@@ -11,6 +11,9 @@
     "build-css": "postcss assets/style.css -o assets/style.compiled.css",
     "dev-css": "postcss assets/style.css -w -o assets/style.compiled.css"
   },
+  "engines" : {
+    "node" : ">=18.0.0 "
+  },
   "author": "eMundus",
   "license": "ISC",
   "devDependencies": {
