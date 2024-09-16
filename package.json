@@ -1,0 +1,37 @@
+{
+  "name": "tchooz-storybook",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "build-css": "postcss assets/style.css -o assets/style.compiled.css",
+    "dev-css": "postcss assets/style.css -w -o assets/style.compiled.css"
+  },
+  "author": "eMundus",
+  "license": "ISC",
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.9.0",
+    "@ljcl/storybook-addon-cssprops": "^4.0.0",
+    "@storybook/addon-a11y": "^8.3.0",
+    "@storybook/addon-designs": "^8.0.3",
+    "@storybook/addon-essentials": "^8.3.0",
+    "@storybook/addon-interactions": "^8.3.0",
+    "@storybook/addon-links": "^8.3.0",
+    "@storybook/addons": "^7.6.17",
+    "@storybook/blocks": "^8.3.0",
+    "@storybook/html": "^8.3.0",
+    "@storybook/html-vite": "^8.3.0",
+    "@storybook/manager-api": "^8.3.0",
+    "@storybook/test": "^8.3.0",
+    "@storybook/theming": "^8.3.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "postcss-cli": "^11.0.0",
+    "storybook": "^8.3.0",
+    "tailwindcss": "^3.4.11"
+  }
+}
