@@ -7,7 +7,7 @@ export default create({
     fontCode: 'monospace',
 
     brandTitle: 'eMundus Design System',
-    brandImage: '/public/tchooz.png',
+    brandImage: 'tchooz.png',
     brandTarget: '_self',
 
     //
