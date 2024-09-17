@@ -6,20 +6,20 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    src: url(assets/fonts/Inter.ttf); /* For IE6-8 */
+    src: url(/public/fonts/Inter.ttf); /* For IE6-8 */
     src: local('Inter'),
     local('Inter-Regular'),
-    url(assets/fonts/Inter.ttf) format('truetype');
+    url(/public/fonts/Inter.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'Material Symbols Outlined';
     font-style: normal;
     font-weight: 400;
-    src: url(assets/fonts/MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].ttf); /* For IE6-8 */
+    src: url(/public/fonts/MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].ttf); /* For IE6-8 */
     src: local('Material Symbols Outlined'),
     local('MaterialSymbolsOutlined[FILL,GRAD,opsz,wght]'),
-    url(assets/fonts/MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].ttf) format('truetype');
+    url(/public/fonts/MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].ttf) format('truetype');
 }
 
 .material-symbols-outlined {
