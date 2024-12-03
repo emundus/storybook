@@ -1,4 +1,5 @@
 import { fn } from '@storybook/test';
+import icons from '/public/icons.json';
 
 import { createButton } from './Button';
 import {useGlobals} from "@storybook/manager-api";
@@ -26,8 +27,9 @@ export default {
     },
     icon: {
       name: 'Icon',
-      control: 'text',
+      control: 'select',
       description: 'The button icon',
+      options: icons.icons
     }
   }
 };
