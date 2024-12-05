@@ -12,26 +12,42 @@ export default {
             control: 'text',
             description: 'The card label',
         },
+        description: {
+            name: 'Description',
+            control: 'text',
+            description: 'The card description',
+        },
         tags: {
             name: 'Tags',
             control: 'array',
-            description: 'The card tags',
-            value: ['tag1', 'tag2']
-        },
-        actions: {
-            name: 'Actions',
-            control: 'array',
-            description: 'The card actions',
-            value: ['edit', 'delete']
+            description: 'The card tags'
         },
         count: {
             name: 'Count',
             control: 'number',
             description: 'The card count',
-            value: 3
+            value: 1
         }
     },
     args: {
+        count: 3
+    }
+};
+
+export const DefaultCard = {
+    args: {
+        label: 'Title',
+        description: 'Description',
+        tags: [
+            {
+                label: 'tag1',
+                type: 'primary'
+            },
+            {
+                label: 'tag2',
+                type: 'secondary'
+            },
+        ],
         count: 3
     }
 };
